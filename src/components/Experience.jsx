@@ -11,15 +11,19 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { Network } from "./canvas";
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
+        background: "rgba(10, 14, 23, 0.85)",
         color: "#fff",
+        border: "1px solid rgba(255,255,255,0.12)",
+        boxShadow: "0 20px 50px rgba(0,0,0,0.35)",
+        backdropFilter: "blur(16px)",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "7px solid rgba(255,255,255,0.15)" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
@@ -58,27 +62,30 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
-      </motion.div>
+    <div className='relative section-shell p-6 sm:p-8 lg:p-10 overflow-hidden'>
+      <Network />
+      <div className='relative z-10'>
+        <motion.div variants={textVariant()}>
+          <p className={`${styles.sectionSubText} text-center`}>
+            What I have done so far
+          </p>
+          <h2 className={`${styles.sectionHeadText} text-center`}>
+            Work Experience.
+          </h2>
+        </motion.div>
 
-      <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+        <div className='mt-20 flex flex-col'>
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <ExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))}
+          </VerticalTimeline>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

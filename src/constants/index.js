@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -117,10 +117,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "DigisolGroup",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#f7f8fb",
+    date: "March 2026 - now",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,41 +130,41 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "NGT Buea",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2025 - Feb 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop and maintain modern web and mobile applications using React.js, Flutter, React Native, and other related technologies.",
+      "Work closely with designers, product managers, and fellow developers to plan, build, and deliver high-quality digital solutions.",
+      "Create responsive, user-friendly interfaces that provide a seamless experience across different devices, platforms, and browsers.",
+      "Participate in code reviews, share knowledge with the team, and provide constructive feedback to improve code quality and maintainability.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Skywalker Home & Office",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#fbfcfc",
+    date: "Jun 2025 - Aug 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop and maintain modern web applications using React.js and other related technologies.",
+      "Work closely with designers, product managers, and fellow developers to plan, build, and deliver high-quality digital solutions.",
+      "Create responsive, user-friendly interfaces that provide a seamless experience across different devices, platforms, and browsers.",
+      "Participate in code reviews, share knowledge with the team, and provide constructive feedback to improve code quality and maintainability.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Graphic Designer",
+    company_name: "Skywalker",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#f6f5f4",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design visually engaging graphics, branding materials, and digital assets for various platforms of the company.",
+      "Collaborate with marketing teams, developers, and clients to create designs that effectively communicate ideas and enhance user engagement.",
+      "Develop creative concepts, maintain brand consistency, and produce high-quality visual content across various media.",
+      "Review designs, incorporate feedback, and continuously refine creative work to meet project goals and industry standards.",
     ],
   },
 ];
@@ -172,27 +172,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I thought it was impossible to make a website as beautiful as our product, but Jorel proved me wrong.",
+    name: "K. Vanel",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Skywalker",
+    image: "https://randomuser.me/api/portraits/men/83.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Jorel does.",
+    name: "N. Christave",
+    designation: "COO",
+    company: "NGT Buea",
+    image: "https://randomuser.me/api/portraits/men/80.jpg",
+  },
+  {
+    testimonial:
+      "The set of identity visual Jorel proposed to us was game changing",
+    name: "K. perese",
+    designation: "CTO",
+    company: "Skywalker",
+    image: "https://randomuser.me/api/portraits/men/53.jpg",
   },
 ];
 
@@ -207,7 +207,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Postgre",
         color: "green-text-gradient",
       },
       {
@@ -216,12 +216,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mbongoelvis/CarRentalManagementFrontend",
   },
   {
-    name: "Job IT",
+    name: "IMS (DigisolGroup) ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that collect, store, organize, process, manage, and retrieve information such that the organizations can efficiently access and use data for daily operations and decision-making.",
     tags: [
       {
         name: "react",
@@ -232,24 +232,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.digisolgroup.org/",
   },
   {
-    name: "Trip Guide",
+    name: "E-commerce Platform",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A modern e-commerce platform that provides a seamless shopping experience, allowing users to explore products, manage their carts, and complete secure purchases through an intuitive user-friendly interface.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +258,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://skywalkershop.vercel.app/",
   },
 ];
 
