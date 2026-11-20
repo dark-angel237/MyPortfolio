@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  himed,
   threejs,
 } from "../assets";
 
@@ -197,6 +198,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Hi-Med Prepas",
+    description:
+      "Landing site for a national exam-preparation center in Cameroon, showcasing programs, centers and results, with an online pre-registration form and an admin dashboard to manage sign-ups.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: himed,
+    source_code_link: "https://hi-med-eosin.vercel.app/",
+  },
   {
     name: "Car Rent",
     description:
