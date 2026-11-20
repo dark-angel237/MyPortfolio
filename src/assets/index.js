@@ -26,10 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import himed from "./himed.png";
-import tripguide from "./tripguide.png";
+import carrent from "./carrent.webp";
+import jobit from "./jobit.webp";
+import himed from "./himed.webp";
+import tripguide from "./tripguide.webp";
 
 export {
   logo,

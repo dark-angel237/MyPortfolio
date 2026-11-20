@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio-eight-psi-17.vercel.app/sitemap.xml
