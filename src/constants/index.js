@@ -238,7 +238,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/mbongoelvis/CarRentalManagementFrontend",
+    source_code_link: "https://www.digifleets.com/",
   },
   {
     name: "IMS (DigisolGroup) ",
